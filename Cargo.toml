@@ -1,0 +1,13 @@
+[package]
+name = "adb"
+version = "0.1.0"
+edition = "2024"
+default-run = "adb"
+
+[[bin]]
+name = "adb"
+path = "src/bin/adb/main.rs"
+
+[[bin]]
+name = "cli"
+path = "src/bin/cli/main.rs"
